@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+</head>
+<body>
+  <div class="bookcontainer">
+    <h1><i class="bi bi-book-fill"></i>My<span>Book</span>List</h1>
+    <div class="bookcontent">
+      <p>Title</p>
+      <input type="text" placeholder="Compount effect" id="book-title" class="input-field" />
+      <p>Author</p>
+      <input type="text" placeholder="Call Newport" id="book-author" class="input-field" />
+      <p>Color</p>
+      <input type="text" placeholder="Color" id="book-color" class="input-field" />
+      <div class="radio-container">
+        <input type="radio" name="type" class="radio" id="radio-psychology" />
+        <label for="radio-psychology">Psychology</label>
+        <input type="radio" name="type" class="radio" id="radio-drama" />
+        <label for="radio-drama">Drama</label>
+        <input type="radio" name="type" class="radio" id="radio-motivation" />
+        <label for="radio-motivation">Motivation</label>
+      </div>
+      <div class="button-container">
+        <button id="add-btn">Add Book</button>
+      </div>
+    </div>
+    <table id="book-table">
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Type</th>
+      </tr>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
